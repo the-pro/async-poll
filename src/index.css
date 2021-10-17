@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.padd {
+  padding: 9px;
+}
+
+.equal-space {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+}
+
+.partial-width {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content:flex-start;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.long {
+  width: 80%;
+}
+
+.wide {
+  height: 20%;
+}
+
+.card {
+  border: 1px solid rgb(205, 209, 211);
+  padding: 14px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+}
+
+.small {
+  font-size: x-small;
+  color: red;
+}
+
+.mid {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
